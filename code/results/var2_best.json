@@ -1,0 +1,15 @@
+{
+  "model": "ridge",
+  "degree": 10,
+  "alpha": 1.0,
+  "cv_mse": 0.23851155518780084,
+  "holdout": {
+    "selected_on_80pct": {
+      "model": "ridge",
+      "degree": 11,
+      "alpha": 1.0
+    },
+    "mse": 0.24595903963975968,
+    "r2": 0.9939193921530723
+  }
+}

@@ -1,0 +1,30 @@
+  ridge degree  1 done  (0s)
+  ridge degree  2 done  (0s)
+  ridge degree  3 done  (0s)
+  ridge degree  4 done  (1s)
+  ridge degree  5 done  (2s)
+  ridge degree  6 done  (6s)
+  ridge degree  7 done  (12s)
+  ridge degree  8 done  (20s)
+  lasso degree  1 done  (20s)
+  lasso degree  2 done  (20s)
+  lasso degree  3 done  (20s)
+  lasso degree  4 done  (21s)
+  lasso degree  5 done  (23s)
+  lasso degree  6 done  (31s)
+  lasso degree  7 done  (59s)
+{
+  "model": "lasso",
+  "degree": 5,
+  "alpha": 0.01,
+  "cv_mse": 0.3544197040819696,
+  "holdout": {
+    "selected_on_80pct": {
+      "model": "lasso",
+      "degree": 5,
+      "alpha": 0.01
+    },
+    "mse": 0.3124940709347353,
+    "r2": 0.9557523599610013
+  }
+}

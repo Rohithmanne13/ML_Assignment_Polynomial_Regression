@@ -1,0 +1,15 @@
+{
+  "model": "lasso",
+  "degree": 5,
+  "alpha": 0.01,
+  "cv_mse": 0.35441970408196977,
+  "holdout": {
+    "selected_on_80pct": {
+      "model": "lasso",
+      "degree": 5,
+      "alpha": 0.01
+    },
+    "mse": 0.3124940709347355,
+    "r2": 0.9557523599610013
+  }
+}
